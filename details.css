@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.details-container {
+    color: gray;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9ff;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
